@@ -26,4 +26,4 @@ Insert here an image of the preview if your project has one. The image can be in
 ![](/preview.jpg)
 
 ### Notes
-If you want to learn all about markdown i recommend you visit the site [markdown.es](https://markdown.es/sintaxis-markdown/)
+#### Version 0.0.1 [version 1](https://github.com/GerardoMandujano/crud-tienda/master)
