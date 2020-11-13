@@ -5,7 +5,7 @@ Repsoitorio de muestra para la escuela de codigo pilares
 This proyect has two branches: develop1 and develop2. **develop1** contains the tests of the repositories and **develop2** contains the test of the use cases.
 
 ## Demo
-If you want to see the demo of this proyect deployed, you can visit [Demo of the proyect](https://anabelisa.co/tips-para-hacer-un-buen-readme-md/)
+Para ver el demo por favor visita  [Demo del pro](https://https://github.com/GerardoMandujano/crud-tienda/edit/master/)
 
 ## How to clone
 If you have special requirements, you have to list it step by step.
