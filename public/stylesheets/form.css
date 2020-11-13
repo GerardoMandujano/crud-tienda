@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 90%;
+    margin: 2.5% auto;
+}
+
+.contenedor h1 {
+    padding: 10px;
+    margin-bottom: .2%pxc;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+}
+
+label {
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    color: rgb(0, 74, 139);
+    background: rgb(201, 201, 201);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    //  text-transform: uppercase;
+}
+
+input[type="submit"] {
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 250px;
+    margin: 0 auto;
+    border: none;
+    height: 50px;
+    background: #1f8f2e;
+}
+
+input:hover[type="submit"] {
+    color: rgb(0, 0, 0);
+    background: #1f8f2ed0;
+}
+
+tr {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #1f8f2e;
+}
+
+#lista {
+    display: none;
+}
+
+.form-pedido {
+    display: inline;
+    width: 90%;
+    margin: 2.5% auto;
+}
+
+.form-pedido input[type="text"] {
+    color: rgb(0, 0, 0);
+    background: rgb(201, 201, 201);
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.form-pedido #aniadir {
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 150px;
+    margin: 0 auto;
+    border: none;
+    height: 50px;
+    background: #1f8f2e;
+}
+
+#lista-pedido {
+    width: 70%;
+    margin: 0 auto;
+}
+
+td,
+th,
+tr {
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+#divtotal {
+    font-size: 30px;
+}
+
+.btn-agregar {
+    background: rgb(48, 212, 103);
+    display: block;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+}
+
+.btn-delete {
+    display: inline;
+    background: rgb(212, 48, 48);
+    display: block;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+}
+
+.btn-update {
+    display: inline;
+    background: rgb(230, 202, 44);
+    display: block;
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+}
+
+.btn-agregar:hover {
+    background: rgb(36, 97, 56);
+    color: rgb(172, 128, 48);
+}
+
+.btn-delete:hover {
+    background: rgb(202, 10, 10);
+    color: rgb(170, 159, 159);
+    text-decoration: none;
+}

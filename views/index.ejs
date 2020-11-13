@@ -1,0 +1,51 @@
+<%- include('template/header') -%>
+    <header>
+        <div class="contenedor">
+            <title clas>
+                <%= title %>
+            </title>
+
+
+
+            <h1>
+                <%= title %>
+            </h1>
+
+
+
+            <div class="contenedor contenedor-tarjetas" style="display: flex;">
+                <% producto.forEach(function(producto){ %>
+                    <div class="tarjetas ">
+
+                        <div class="tarjeta">
+
+                            <img src="/images/<%= producto.ruta %>" alt=",...." width="200px">
+                            <h2>
+                                <%= producto.nombre%>
+                            </h2>
+                            <p>
+                                <%= producto.descripccion%>
+                            </p>
+                            <P>
+                                <%= producto.precio%>
+                            </P>
+                            <a href="http://localhost:3000/productos/<%= producto._id%>">Ver producto</a>
+                            <a href="<%= producto._id%>">Comprar</a>
+                        </div>
+                    </div>
+                    <% }); %>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </header>
+    <%- include('template/footer') -%>
