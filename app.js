@@ -51,6 +51,12 @@ app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error');
 });
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config()
+}
+
+const DB_URI = process.env.DB_URI;
+const PORT = process.env.PORT;
 
 //conectando  a base 
 const mongoose = require('mongoose');
